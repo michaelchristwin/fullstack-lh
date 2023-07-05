@@ -1,0 +1,25 @@
+{
+  "files": {
+    "main.css": "/static/css/main.eee5fd9d.css",
+    "main.js": "/static/js/main.0c6abc4b.js",
+    "static/js/787.cda612ba.chunk.js": "/static/js/787.cda612ba.chunk.js",
+    "static/media/black.jpg": "/static/media/black.3f476a7adab0a0d58149.jpg",
+    "static/media/reading.jpg": "/static/media/reading.75677bb0382d98a5abb7.jpg",
+    "static/media/tutoring.jpg": "/static/media/tutoring.2754732a1e0999f4b35d.jpg",
+    "static/media/2.png": "/static/media/2.f721470e2ca531a7583c.png",
+    "static/media/1.png": "/static/media/1.12da06e36a7e190b9b81.png",
+    "static/media/studh-sm.png": "/static/media/studh-sm.20cdbf20c7762ce2329e.png",
+    "static/media/3.png": "/static/media/3.b4a2a11329a0037924c5.png",
+    "static/media/AGaramondPro-Bold.otf": "/static/media/AGaramondPro-Bold.e2cb1ec412546ad8b33c.otf",
+    "static/media/books.png": "/static/media/books.2b6226fbd7652bc13134.png",
+    "static/media/avatar2.png": "/static/media/avatar2.ded7cc237db4f4356f83.png",
+    "index.html": "/index.html",
+    "main.eee5fd9d.css.map": "/static/css/main.eee5fd9d.css.map",
+    "main.0c6abc4b.js.map": "/static/js/main.0c6abc4b.js.map",
+    "787.cda612ba.chunk.js.map": "/static/js/787.cda612ba.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.eee5fd9d.css",
+    "static/js/main.0c6abc4b.js"
+  ]
+}
