@@ -132,7 +132,5 @@ app.get("/", (req, res) => {
 });
 
 app.listen(process.env.PORT, () => {
-  console.log(
-    `Listening on http://localhost:${process.env.PORT}${admin.options.rootPath}......`
-  );
+  console.log(`Listening on http://localhost:${process.env.PORT}......`);
 });
