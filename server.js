@@ -85,7 +85,8 @@ const authenticate = async (email, password) => {
 const ConnectSession = Connect(session);
 const sessionStore = new ConnectSession({
   conObject: {
-    connectionString: `postgres://default:XLlMr8OG1ebS@ep-rapid-bush-478334.us-east-1.postgres.vercel-storage.com:5432/verceldb?sslmode=require`,
+    connectionString:
+      "postgres://default:XLlMr8OG1ebS@ep-rapid-bush-478334-pooler.us-east-1.postgres.vercel-storage.com:5432/verceldb?sslmode=require",
     ssl: process.env.NODE_ENV === "production",
   },
   tableName: "session",
