@@ -7,6 +7,12 @@ const config = {
   PASSWORD: process.env.PASSWORD,
   DB: process.env.DB,
   dialect: "postgres",
+  dialectOptions: {
+    ssl: {
+      require: true,
+      rejectUnauthorized: false,
+    },
+  },
   pool: {
     max: 5,
     min: 0,

@@ -5,6 +5,7 @@ import tutor from "../models/tutor.js";
 
 const sequelize = new Sequelize(dbConfig.DB, dbConfig.USER, dbConfig.PASSWORD, {
   host: dbConfig.HOST,
+  dialectOptions: dbConfig.dialectOptions,
   dialect: dbConfig.dialect,
   pool: {
     max: dbConfig.pool.max,

@@ -37,7 +37,6 @@ app.use(express.static(path.join(__dirname, "build")));
 app.use("/api/students", students);
 app.use("/api/tutors", tutors);
 
-
 AdminJS.registerAdapter({
   Resource: AdminJSSequelize.Resource,
   Database: AdminJSSequelize.Database,
@@ -86,7 +85,7 @@ const authenticate = async (email, password) => {
 const ConnectSession = Connect(session);
 const sessionStore = new ConnectSession({
   conObject: {
-    connectionString: `postgres://postgres:${process.env.PASSWORD}@localhost:5432/learnhalldb`,
+    connectionString: `postgres://default:XLlMr8OG1ebS@ep-rapid-bush-478334.us-east-1.postgres.vercel-storage.com:5432/verceldb?sslmode=require`,
     ssl: process.env.NODE_ENV === "production",
   },
   tableName: "session",
