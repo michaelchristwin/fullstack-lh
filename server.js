@@ -28,6 +28,7 @@ app.use(
   })
 );
 
+// Importing routes
 import students from "./routes/student.route.js";
 import tutors from "./routes/tutor.route.js";
 
@@ -35,6 +36,7 @@ const __dirname = path.resolve();
 app.use(express.static(path.join(__dirname, "build")));
 app.use("/api/students", students);
 app.use("/api/tutors", tutors);
+
 
 AdminJS.registerAdapter({
   Resource: AdminJSSequelize.Resource,
