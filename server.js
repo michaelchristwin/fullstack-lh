@@ -109,6 +109,7 @@ const adminRouter = AdminJSExpress.buildAuthenticatedRouter(
     cookie: {
       secure: process.env.NODE_ENV === "production",
       httpOnly: process.env.NODE_ENV === "production",
+      domain: "https://learnhall.onrender.com",
     },
     name: "adminjs",
   }
