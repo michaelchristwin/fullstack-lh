@@ -4,6 +4,6 @@ import express from "express";
 const router = express.Router();
 
 router.post("/", create);
-router.get("/", findAll); // remove on production
+// router.get("/", findAll); // remove on production
 
 export default router;

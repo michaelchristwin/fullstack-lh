@@ -17,11 +17,7 @@ app.use(express.json());
 
 app.use(
   cors({
-    origin: [
-      "https://everymansenglish.com",
-      "http://localhost:3001",
-      "http://localhost:3000",
-    ],
+    origin: ["https://learnhall.onrender.com", "https://www.worldofshows.com/"],
     credentials: true,
     methods: ["POST"],
     allowedHeaders: ["Content-Type"],
@@ -107,9 +103,8 @@ const adminRouter = AdminJSExpress.buildAuthenticatedRouter(
     saveUninitialized: true,
     secret: "sessionsecret",
     cookie: {
-      secure: true,
-      httpOnly: false,
-      domain: "learnhall.onrender.com",
+      secure: process.env.NODE_ENV === "production",
+      httpOnly: process.env.NODE_ENV === "production",
     },
     name: "adminjs",
   }

@@ -3,6 +3,6 @@ import express from "express";
 const router = express.Router();
 
 router.post("/", create);
-router.get("/", findAll);
+// router.get("/", findAll); // comment in production
 
 export default router;

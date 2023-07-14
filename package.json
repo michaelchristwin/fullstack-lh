@@ -1,23 +1,15 @@
 {
   "name": "backend",
   "version": "1.0.0",
-  "description": "",
-  "type": "module",
   "main": "server.js",
-  "engines": {
-    "node": "18.x"
-  },
-  "scripts": {
-    "start": "node server.js",
-    "test": "echo \"Error: no test specified\" && exit 1"
-  },
-  "keywords": [],
-  "author": "",
-  "license": "ISC",
+  "type": "module",
+  "repository": "git@github.com:michaelchristwin/fullstack-lh.git",
+  "author": "michaelchristwin <kelechukwuchristwin@gmail.com>",
+  "license": "MIT",
   "dependencies": {
     "@adminjs/express": "^6.0.0",
     "@adminjs/sequelize": "^4.0.0",
-    "adminjs": "^7.0.8",
+    "adminjs": "^7.0.9",
     "connect-pg-simple": "^9.0.0",
     "cors": "^2.8.5",
     "dotenv": "^16.3.1",
@@ -25,8 +17,15 @@
     "express-formidable": "^1.2.0",
     "express-session": "^1.17.3",
     "nodemailer": "^6.9.3",
-    "pg": "^8.11.0",
+    "pg": "^8.11.1",
     "sequelize": "^6.32.1",
     "tslib": "^2.6.0"
+  },
+  "engines": {
+    "node": "18.x"
+  },
+  "scripts": {
+    "start": "node server.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
   }
 }
