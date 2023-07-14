@@ -36,7 +36,7 @@ export const create = (req, res) => {
   async function SendMail() {
     let info = await transporter.sendMail({
       from: emailUsed,
-      to: "iamjanus@proton.me",
+      to: "mwhoeft@gmail.com",
       subject: "New Student Signed up!",
       text: text,
     });
