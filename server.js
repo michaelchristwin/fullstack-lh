@@ -82,7 +82,7 @@ const ConnectSession = Connect(session);
 const sessionStore = new ConnectSession({
   conObject: {
     connectionString:
-      "postgres://default:XLlMr8OG1ebS@ep-rapid-bush-478334-pooler.us-east-1.postgres.vercel-storage.com:5432/verceldb?sslmode=require",
+      "postgres://mike:SsXclClzrBCvGViJ7MQHHzTtjd0ReIr6@dpg-ciom3mdgkuvh5ghapsd0-a:5432/learnhalldb",
     ssl: process.env.NODE_ENV === "production",
   },
   tableName: "session",
